@@ -14,6 +14,7 @@ import Checkout from './pages/Checkout';
 import TrackOrder from './pages/TrackOrder';
 import About from './pages/About';
 import Booking from './pages/Booking';
+import PlatterBuilder from './pages/PlatterBuilder';
 
 // Admin Pages
 import AdminLayout from './layouts/AdminLayout';
@@ -42,6 +43,7 @@ function App() {
             <Route path="/checkout" element={<Checkout />} />
             <Route path="/track" element={<TrackOrder />} />
             <Route path="/booking" element={<Booking />} />
+            <Route path="/platter" element={<PlatterBuilder />} />
             
             {/* Admin Routes — No Navbar/Footer */}
             <Route path="/admin" element={<AdminLayout />}>

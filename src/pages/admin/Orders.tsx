@@ -38,7 +38,7 @@ const Orders = () => {
   };
 
   const getStatusBadge = (status: string) => {
-    const map: Record<string, { label: string; icon: JSX.Element; cls: string }> = {
+    const map: Record<string, { label: string; icon: React.ReactElement; cls: string }> = {
       pending: { label: 'قيد المراجعة', icon: <FaClock />, cls: 'o-badge-warning' },
       cooking: { label: 'جاري التجهيز', icon: <FaUtensils />, cls: 'o-badge-info' },
       on_way: { label: 'في الطريق', icon: <FaMotorcycle />, cls: 'o-badge-primary' },
