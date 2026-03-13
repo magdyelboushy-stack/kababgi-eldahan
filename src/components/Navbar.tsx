@@ -26,6 +26,7 @@ const Navbar = () => {
   const navLinks = [
     { name: 'الرئيسية', path: '/' },
     { name: 'المنيو', path: '/menu' },
+    { name: 'لمة صحاب 🔥', path: '/platter' },
     { name: 'عن الدهان', path: '/about' },
     { name: 'تتبع طلبك', path: '/track' },
   ];
